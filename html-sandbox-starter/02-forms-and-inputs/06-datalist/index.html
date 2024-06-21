@@ -3,9 +3,72 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML & CSS Sandbox</title>
+    <title>HTML & CSS Sandbox | Datalist</title>
   </head>
   <body>
     <h1>HTML & CSS Sandbox - Datalist</h1>
+
+    <!-- General list select -------------  -->
+
+    <label for="favlang">Favorite Programming Languages</label>
+    <input list="languages" id="favlang" name="favlang">
+    <datalist id="languages">
+       <option value="javascript"></option>
+       <option value="php"></option>
+       <option value="python"></option>
+       <option value="ruby"></option>
+       <option value="C"></option>
+       <option value="C#"></option>
+      
+    </datalist>
+
+    <br><br>
+
+     <!-- Time---------- -->
+
+     <input type="time" list="popularHours">
+    <datalist id="popularHours">
+      <option value="10:00"></option>
+      <option value="11:00"></option>
+      <option value="12:00"></option>
+    </datalist>
+
+    <br><br>
+
+    <label for="tick">Tip Amount</label>
+    
+    <input type="range" name="tick" id="tick" list="tickmarks" min="0" max="100">
+    <datalist id="tickmarks">
+      <option value="0"></option>
+      <option value="10"></option>
+      <option value="20"></option>
+      <option value="30"></option>
+      <option value="40"></option>
+      <option value="50"></option>
+      <option value="60"></option>
+      <option value="70"></option>
+      <option value="80"></option>
+      <option value="90"></option>
+      <option value="100"></option>
+
+    </datalist>
+   <br><br> 
+
+      <!-- -------color------- -->
+
+      <label for="color">Pick a color</label>
+
+      <input type="color" id="colors" name="colors" list="redColors">
+      
+      <datalist id="redColors">
+        <option value="#800000"></option>
+        <option value="#8b0000"></option>
+        <option value="#a52a2a"></option>
+        <option value="#dc143c"></option>
+      </datalist>
+
+
+
+
   </body>
 </html>
