@@ -1,3 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: 'Roboto', sans-serif;
+  background: rgb(210, 215, 220);
 }
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 600px;
+  padding-inline: 40px;
+  margin-inline: auto;
+  padding-block: 100px;
+}
+
+.card {
+  padding: 25px;
+  display: flex;
+  box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.15);  
+  border-radius: 15px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+}
+.card-content {
+  width: 60%;
+}
+.card-content h2 {
+  padding-bottom: 25px;
+
+}
+.card-content p {
+  padding-bottom: 25px;
+}
+.card-image {
+  width: 40%;
+}
+.btn {
+  padding: 10px 20px;
+  color: white;
+  border-radius: 6px;
+  box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.15);  
+}
+.sporty .btn {
+  background: #b02830;
+}
+.sporty h2 {
+  color: #b02830;
+}
+
+.sporty img {
+  width: 200px;
+  position: absolute;
+  top: -20px;
+  right: 0;
+}
+
+.casual img {
+  width: 200px;
+  position: absolute;
+  top: 0px;
+  right: 0;
+}
+.casual .btn {
+  background: #0f479f;
+}
+.casual h2 {
+  color: #0f479f;
+}
+.formal img {
+  width: 200px;
+  position: absolute;
+  top: -10px;
+  right: 0;
+}
+.formal .btn {
+  background: #381e13;
+}
+
+.formal h2 {
+  color: #381e13;
+}
+ 
