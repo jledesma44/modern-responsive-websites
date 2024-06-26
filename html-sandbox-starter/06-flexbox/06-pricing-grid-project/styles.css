@@ -27,9 +27,8 @@ a {
   border-radius: 10px;
   background: #fff;
   text-align: center;
-box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.15);
 }
-
 
 .pricing {
   display: flex;
@@ -93,3 +92,5 @@ box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.15);
   background-image: linear-gradient(to right, #ed7cda, #ffaa1b);
   color: white;
 }
+
+
