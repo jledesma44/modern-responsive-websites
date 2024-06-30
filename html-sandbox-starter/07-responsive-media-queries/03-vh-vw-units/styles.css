@@ -7,3 +7,12 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+
+.container {
+  background: coral;
+  height: 100vh;
+  padding: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-block: 40px;
+}

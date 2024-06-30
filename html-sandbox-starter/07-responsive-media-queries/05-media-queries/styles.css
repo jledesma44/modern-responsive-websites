@@ -7,3 +7,43 @@
 body {
   font-family: Arial, sans-serif;
 }
+
+@media (max-width: 1200px) {
+  .widescreen {
+    background: coral;
+    color: white;
+  }
+
+}    
+@media (max-width: 995px) {
+  .normal {
+    background: steelblue;
+    color: white;
+  }
+}    
+@media (max-width: 768px) {
+  .tablet {
+    background: lightgreen;
+    color: white;
+  }
+}    
+
+@media (max-width: 576px) {
+  .smartphone {
+    background: lightcoral;
+    color: white;
+  }
+}    
+@media (orientation: landscape) {
+  .landscape {
+    background: lightgoldenrodyellow;
+    color: white;
+  }
+}    
+@media (max-height: 500px) {
+  .height {
+    background: lightseagreen;
+    color: white;
+  }
+} 
+
